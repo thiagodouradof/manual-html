@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principais tags HTML</title>
+</head>
+<body>
+    <!-- tags importantes pra semântica: header,main, aside, footer e section -->
+    <header>
+        <!-- barra de navegação -->
+        <nav>
+            <a href="/">
+                <img src="/images/imagem.png" alt="imagem de um X" height="40">
+            </a>
+
+            <ul>
+                <li>
+                    <a href="tags.html">Home</a>
+                </li>
+                <li>
+                    <a href="tags.html">Portifólio</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="about-me">
+            Sobre mim
+        </section>
+
+        <section id="blog">
+            <article>
+                <header></header>
+
+                <main></main>
+
+                <footer></footer>
+            </article>
+        </section>
+
+        <section>
+            <figure>
+                <img src="images/imagem2.png" alt="imagem de um X">
+                <figcaption>Foto de um X</figcaption>
+            </figure>
+        </section>
+    </header>
+
+    <!-- conteúdo principal -->
+    <main>
+
+        
+        <!-- Isso é um comentário -->
+
+        <!-- Cabeçalhos -->
+        <h1>Cabeçalho h1</h1>
+
+        <!-- Linha horizntal -->
+        <hr>
+
+        <h2>Cabeçalho h2</h2>
+        <h3>Cabeçalho h3</h3>
+        <h4>Cabeçalho h4</h4>
+        <h5>Cabeçalho h5</h5>
+        <h6>Cabeçalho h6</h6>
+
+        <!--Parágrafos -->
+        <p>Parágrafo</p>
+        <p>
+            Outro 
+
+            <!-- Quebra de linha -->
+            <br>
+            Parágrafo
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni deleniti similique consequatur corrupti quo, provident magnam et voluptatibus, nemo atque fugiat explicabo necessitatibus in placeat beatae unde? Sapiente, accusamus voluptatem!</p>
+
+        <!-- Link -->
+        <a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Site da Google</a>
+        
+        <br>
+           
+        <!-- Imagens -->
+        <img src="images/imagem.png" 
+        alt="imagem de um X"
+        width="25%">
+
+        <br>
+
+        <img src="data:image/png;base64,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" 
+        alt="imagem de um X"
+        width="15%">
+
+
+        <h2>Listas</h2>
+
+        <!-- Listas não numeradas -->
+        <h3>Listas não numeradas</h3>
+
+        <ul>
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+        </ul>
+
+        <!-- Listas numeradas -->
+        <h3>Listas numeradas</h3>
+
+        <ol>
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+        </ol>
+
+
+        <!-- tags genéricas -->
+        <p>
+            Texto
+            <!-- span não cria um bloco de palavra -->
+            <span>
+                Texto no span
+            </span>
+        </p>
+
+        <p>
+            Texto acima da div
+            <!-- div cria um bloco de palavra -->
+            <div>
+                Texto na div
+            </div>
+        </p>
+
+        <!-- tags de formatação de texto -->
+        <p>
+            Texto
+            <!-- b somente torna negrito -->
+            <b>
+                Texto em negrito 1
+            </b>
+            <!-- strong leva em conta a semântica -->
+            <strong>
+                Texto em negrito 2
+            </strong>
+        </p>
+        <p>
+            <!-- i somente torna itálico -->
+            <i>
+                Texto em itálico 1
+            </i>
+            <!-- em leva em conta a semântica -->
+            <em>
+                Texto em itálico 2
+            </em>
+        </p>
+            <!-- sublinhado se utiliza a tag u, mas é recomendado utilizar somente o CSS -->
+        
+        <p>
+            <!-- s é riscar um texto -->
+            <s>
+                Texto riscado
+            </s>
+        </p>
+            
+        <p>
+            <!-- code é marca texto -->
+            <mark>
+                Texto com marca texto
+            </mark>
+        </p>
+        <p>
+            <!-- code é código inline -->
+            <code>
+                Texto com fromatação de código
+            </code>
+        </p>
+        <p>
+            <!-- blockquote é para citações-->
+            <blockquote>
+                "Qualquer citação"
+            </blockquote>
+        </p>
+        <p>
+            <!-- sup é para textos elevados -->
+            2<sup>10</sup>
+        </p>
+        <p>
+            <!-- sub é para textos abaixo -->
+            H<sub>2</sub>O
+        </p> 
+
+        <p>
+            <!-- pre cria espaço de código -->
+            <pre>
+                nome = 'Thiago'
+                
+                print('Hello World')
+            </pre>
+        </p>
+    </main>
+
+    <!-- barra lateral -->
+    <aside>
+
+    </aside>
+
+    <!-- rodapé -->
+    <footer>
+        Desenvolvido por Thiago Dourado Fontenla.
+    </footer>
+
+    <h1>Tabelas HTML</h1>
+    <section id="section-tabela">
+        <h2>Tabela de Controle Financeiro</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Dinheiro</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Thiago</td>
+                    <td>thiago@email.com</td>
+                    <td rowspan="3">1</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Tony</td>
+                </tr>
+                <tr>
+                    <td>Camila</td>
+                    <td>camila@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <form>
+        <div>
+            <label for="texto" class="classe-para-css">Nome:</label>
+            <input type="text" id="texto" placeholder="Coloque seu nome" name="nome">
+        </div>
+
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+        
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="data">data de nascimento:</label>
+            <input type="date" name="data">
+        </div>
+        
+        <div>
+            <label for="hora">Horário:</label>
+            <input type="time" name="hora">
+        </div>
+        
+        <div>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <select name="select" id="select">Selecione:
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </form>
+
+</body>
+</html>
