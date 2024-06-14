@@ -1,5 +1,5 @@
 # manual-html
-![image](https://github.com/thiagodouradof/manual-html/assets/165097038/15e96a34-8a1c-470a-919e-0f9aeacc47c6)
+<img src="https://github.com/thiagodouradof/manual-html/assets/165097038/15e96a34-8a1c-470a-919e-0f9aeacc47c6" height="300">
 
 Um guia prático e rápido pra utilizar HTML.
 
@@ -16,4 +16,9 @@ Site para documentação(Mozilla):
 https://developer.mozilla.org/pt-BR/docs/Web/HTML
 
 # Estrutura e Tags básicas
-Conferir o documento HTML no repositório
+Conferir o documento HTML no repositório para ver as principais tags.
+## Tags de estrutura
+<img src="https://media.licdn.com/dms/image/C4D12AQHDnTET_Cc7Cg/article-cover_image-shrink_600_2000/0/1596625644452?e=2147483647&v=beta&t=mO6yod4_wMJo1UgJVm5wP9wvP-irA7K5kWX_0QZ3xD0" height="300">
+
+## Formato das páginas com HTML semântico
+<img src="https://www.alura.com.br/artigos/assets/o-que-e-html-suas-tags-parte-1-estrutura-basica/imagem2.jpg" height="300">
